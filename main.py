@@ -10,7 +10,7 @@ import config
 
 base_url = "https://discord.com/api/v9/"
 token = config.token
-header = {'authorization': f'{token}'}
+header = {'authorization': f'Bot {token}'}
 now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
